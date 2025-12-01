@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Node (not used, but safe)
+node_modules/
+dist/
+*.log
