@@ -1,106 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-01P3KESZF8"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-01P3KESZF8');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-01P3KESZF8');
     </script>
-    
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <title>Marie Sitar | Portfolio</title>
 
-    <!-- Accessibility + SEO -->
+    <!-- SEO Description -->
     <meta name="description" content="Portfolio website for Marie Sitar, Business Analytics & Marketing student at the University of Iowa." />
+
+    <!-- SOCIAL MEDIA META TAGS -->
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Marie Sitar | Portfolio">
+    <meta name="twitter:description" content="Portfolio website for Marie Sitar, Business Analytics & Marketing student.">
+    <meta name="twitter:image" content="https://YOUR-DOMAIN.com/img/social-card.png">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Marie Sitar | Portfolio">
+    <meta property="og:description" content="Portfolio website with projects, resume, and professional experience.">
+    <meta property="og:image" content="https://YOUR-DOMAIN.com/img/social-card.png">
+    <meta property="og:url" content="https://YOUR-DOMAIN.com">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- FAVICONS -->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="img/android-chrome-512x512.png">
+
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <a class="logo" href="#top">Marie Sitar</a>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main id="top">
-        <!-- ABOUT -->
-        <section id="personal-intro">
-            <h2>About Me</h2>
+<header>
+    <nav class="navbar">
+        <a class="logo" href="#top">Marie Sitar</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="top">
+
+    <!-- ABOUT SECTION -->
+    <section id="personal-intro">
+        <h2>About Me</h2>
+
+        <p>
+            My name is <strong>Marie Sitar</strong>. I'm a Business Analytics and Marketing student at
+            the University of Iowa with experience in financial services, client communication, analytics,
+            and managing business operations. This portfolio showcases my work, projects, and professional
+            development. It is created for BAIS 3300 using HTML, CSS, Azure Static Web Apps, and Google Analytics.
+        </p>
+
+        <!-- PROFILE PHOTO -->
+        <img src="img/marie.jpg" alt="Photo of Marie Sitar" class="profile-photo">
+
+        <!-- RESUME LINK -->
+        <p>
+            <a href="docs/marie_sitar_resume.pdf" download>Download My Resume (PDF)</a>
+        </p>
+    </section>
+
+    <!-- ABOUT SECTION 2 -->
+    <section id="about">
+        <h1>Welcome!</h1>
+        <p>
+            Hi, I'm <strong>Marie Sitar</strong> — a Business Analytics & Marketing student at the University of Iowa.
+            This portfolio highlights my experience, projects, and work in analytics, marketing strategy,
+            and digital product work.
+        </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <article>
+            <h3>Marketing Analytics Project</h3>
+            <p>Used R, Python, and Tableau to analyze customer behavior and improve targeting strategy.</p>
+        </article>
+
+        <article>
+            <h3>SQL + Data Mining Project</h3>
+            <p>Performed clustering, classification models, and data visualization using SQL and Orange.</p>
+        </article>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <article>
+            <h3>Northwestern Mutual – Financial Representative Intern</h3>
+            <p>Worked with clients, built financial plans, and performed prospecting outreach.</p>
+        </article>
+
+        <article>
+            <h3>EcoWash – Division Manager</h3>
             <p>
-                My name is <strong>Marie Sitar</strong>. I'm a Business Analytics and Marketing student at 
-                the University of Iowa with experience in financial services, client communication, analytics, 
-                and managing business operations. This portfolio showcases my work, projects, and professional 
-                development. It is created for BAIS 3300 using HTML, CSS, Azure Static Web Apps, and Google Analytics.
+              Managed scheduling, budgeting, marketing, operations, and a crew of technicians while growing 
+              the territory.
             </p>
-        </section>
+        </article>
+    </section>
 
-        <section id="about">
-            <h1>Welcome!</h1>
-            <p>
-                Hi, I'm <strong>Marie Sitar</strong> — a Business Analytics & Marketing student at the University of Iowa.
-                This portfolio highlights my experience, projects, and work in analytics, marketing strategy,
-                and digital product work.
-            </p>
-        </section>
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contact Me</h2>
 
-        <!-- PROJECTS -->
-        <section id="projects">
-            <h2>Projects</h2>
+        <p>Email: 
+            <a href="mailto:sitarmarie02@gmail.com">sitarmarie02@gmail.com</a>
+        </p>
 
-            <article>
-                <h3>Marketing Analytics Project</h3>
-                <p>Used R, Python, and Tableau to analyze customer behavior and improve targeting strategy.</p>
-            </article>
+        <p>LinkedIn: 
+            <a href="https://www.linkedin.com/in/mariesitar" target="_blank" rel="noopener">
+                View my profile
+            </a>
+        </p>
 
-            <article>
-                <h3>SQL + Data Mining Project</h3>
-                <p>Performed clustering, classification models, and data visualization using SQL and Orange.</p>
-            </article>
-        </section>
+        <p>GitHub:
+            <a href="https://github.com/sitarmarie02" target="_blank" rel="noopener">
+                My GitHub
+            </a>
+        </p>
+    </section>
 
-        <!-- EXPERIENCE -->
-        <section id="experience">
-            <h2>Experience</h2>
+</main>
 
-            <article>
-                <h3>Northwestern Mutual — Financial Representative Intern</h3>
-                <p>Worked with clients, built financial plans, and performed prospecting outreach.</p>
-            </article>
+<!-- FOOTER WITH LEGAL DOCUMENT LINKS -->
+<footer>
+    <p>&copy; 2025 Marie Sitar</p>
+    <nav class="footer-links">
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="terms.html">Terms & Conditions</a> |
+        <a href="cookies.html">Cookie Policy</a>
+    </nav>
+</footer>
 
-            <article>
-                <h3>EcoWash — Division Manager</h3>
-                <p>
-                    Managed scheduling, budgeting, marketing, operations, and a crew of technicians while growing the territory.
-                </p>
-            </article>
-        </section>
+<!-- COOKIE POPUP -->
+<div id="cookie-popup" class="cookie-popup">
+    <p>
+        This site uses cookies for analytics. See 
+        <a href="cookies.html">Cookie Policy</a>.
+    </p>
+    <button id="cookie-accept">Accept</button>
+</div>
 
-        <!-- CONTACT -->
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:marie-sitar@uiowa.edu">marie-sitar@uiowa.edu</a></p>
-            <p>
-                LinkedIn:
-                <a href="https://www.linkedin.com/mariesitar" target="_blank" rel="noopener">
-                    View my profile
-                </a>
-            </p>
-        </section>
-    </main>
+<script src="cookie-popup.js"></script>
 
-    <footer>
-        <p>&copy; 2025 Marie Sitar</p>
-    </footer>
 </body>
 </html>
+
