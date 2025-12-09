@@ -116,3 +116,13 @@ a[download] {
 a[download]:hover {
   background: #222;
 }
+
+.profile-photo {
+  width: 250px;        /* makes the image much smaller */
+  height: auto;        /* keeps correct proportions */
+  border-radius: 10px; /* optional: rounded corners */
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
