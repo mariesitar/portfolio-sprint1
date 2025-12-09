@@ -118,9 +118,9 @@ a[download]:hover {
 }
 
 .profile-photo {
-  width: 250px;        /* makes the image much smaller */
-  height: auto;        /* keeps correct proportions */
-  border-radius: 10px; /* optional: rounded corners */
+  width: 250px;    
+  height: auto;        
+  border-radius: 10px; 
   display: block;
   margin-top: 1rem;
   margin-bottom: 1rem;
