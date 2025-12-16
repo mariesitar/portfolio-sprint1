@@ -37,8 +37,8 @@ The goal of this project was to:
 ---
 
 ## Screenshots
-![Homepage](img/homepage.png)
 ![Social Card](img/social-card.png)
+![Homepage](img/homepage.png)
 
 ---
 
